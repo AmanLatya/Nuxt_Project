@@ -5,13 +5,13 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
 
 <template>
     <div>
-      <div class="container text-center py-5">
+      <div class="container text-center py-5 border border-5 my-2">
         <div class="row align-items-center">
           <!-- Right Column -->
           <div class="col-md-12">
             <div
               id="carouselExampleIndicators"
-              class="carousel slide w-75 mx-auto"
+              class="carousel slide w-50 mx-auto"
               data-bs-ride="carousel"
             >
               <!-- Carousel Indicators -->
@@ -42,22 +42,22 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="/images/blog-1.png" 
-                    class="d-block w-100 rounded"
-                    alt="product.title"
+                    src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" 
+                    class="d-block w-25 h-50 mx-auto rounded"
+                    alt="Slider 1"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="/images/blog-2.png"
-                    class="d-block w-100 rounded"
+                    src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+                    class="d-block w-25 h-50 mx-auto rounded"
                     alt="Slider 2"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="/images/blog-3.png"
-                    class="d-block w-100 rounded"
+                    src="https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+                    class="d-block w-25 h-50 mx-auto rounded"
                     alt="Slider 3"
                   />
                 </div>
@@ -71,7 +71,7 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  class="carousel-control-prev-icon  btn"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Previous</span>
@@ -83,7 +83,7 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  class="carousel-control-next-icon btn"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Next</span>
@@ -94,4 +94,14 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
       </div>
     </div>
   </template>
+
+<style>
+.btn{
+  background-color: black;
+}
+.btn:hover{
+  color: black;
+  background-color: black;
+}
+</style>
   
