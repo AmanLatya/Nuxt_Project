@@ -1,0 +1,17 @@
+.txt-blue{
+    color: blue;
+}
+.underline{
+    background-color: red;
+    width: 100px; height: 3px;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+/* body color */
+.bg-gray{
+    background-color: rgb(234 234 234);
+}
+.box-card{
+    background-color: white;
+}
