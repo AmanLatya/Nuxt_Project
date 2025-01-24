@@ -71,7 +71,7 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon  btn"
+                  class="carousel-control-prev-icon button"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Previous</span>
@@ -83,7 +83,7 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon btn"
+                  class="carousel-control-next-icon button"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Next</span>
@@ -96,10 +96,10 @@ const { data:product, pending, error, refresh } = await useFetch(`https://fakest
   </template>
 
 <style>
-.btn{
+.button{
   background-color: black;
 }
-.btn:hover{
+.button:hover{
   color: black;
   background-color: black;
 }
